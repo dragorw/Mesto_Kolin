@@ -63,8 +63,8 @@ nav a:hover
     }
 .nav__item
 {
-  display: block;
-  padding: var(--spacing-normal);
+  /* display: block;
+  padding: var(--spacing-normal); */
 
 }
 .nav__item: hover, .nav__item--active
