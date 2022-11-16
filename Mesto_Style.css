@@ -10,6 +10,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+
     }
 
 body
@@ -17,6 +18,40 @@ body
         font-family: "Timse New Roman";
         background-color: aliceblue;
         height: 100%;
+    }
+    .navbar
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .brand-title
+    {
+        font-weight: bold;
+        font-size: 35px;
+        margin: 10px;
+
+    }
+    .navbar-links ul
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+
+
+
+    }
+    .navbar-links li a
+    {
+        padding: 15px 25px;
+        display: block;
+
+
     }
 
 header
@@ -32,6 +67,7 @@ header
 .content
     {
         display: flex;
+        margin: 0 20%;
     }
 aside
     {
@@ -71,10 +107,16 @@ nav a:hover
 {
   color: var(--steel-teal);
 }
-@media screen and (min-width: 320px)
+@media screen and (max-width: 1200px)
 {
+  .navbar
+  {
+      display: inline-block;
+
+  }
 
 }
+
 p
     {
         margin-top: 5px;
