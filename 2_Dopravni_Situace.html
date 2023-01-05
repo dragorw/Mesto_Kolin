@@ -1,66 +1,163 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semestrální project: Mesto Kolín</title>
     <link rel="stylesheet" href="Mesto_Style.css">
+    <meta charset="utf-8">
 </head>
 
 <body>
+
 <div class ="grip">
     <header>
         <nav class="navbar">
-     <a class="odkaz_logo "href="1_Hlani_Stranka.html">
+
+        <a class="odkaz_logo" href="0_Hlani_Stranka.html">
             <div class="brand-title">Kolín</div>
         </a>
+    
     <div class="navbar-links">
-        <ul>
-            
-            <li><a href="Aktuality.html" class="nav__item nav__item--active">Aktuality</a></li>
-            <li><a href="2_Dopravni_Situace.html" class="nav__item nav__item--active">Doprani situace</a></li>
-            <li><a href="3_Kulturni_Akce.html" class="nav__item nav__item--active">Vzdělávání</a></li>
-            <li><a href="4_O_mestu.html" class="nav__item nav__item--active">O městu</a></li>
+        <ul class="nav-menu">
+<form action="https://www.google.com/search">
+            <div class="search-wrapper_x">
+        <label for="search"></label>
+        <input type="search" id="search">
+        <button type="submit"><img class="vyhledat" src="images/search-button.png"></button>
+    </div>
+    </form>
+<div class="uvod">
+            <li class="nav-item"><a href="0_Hlani_Stranka.html" class="nav__item nav__item--active">Úvodní stránka</a></li>
+    </div>
+            <li class="nav-item"><a href="1_Aktuality.html" class="nav__item nav__item--active">Aktuality</a></li>
+            <li class="nav-item"><a href="2_Dopravni_Situace.html" class="nav__item nav__item--active">Doprani situace</a></li>
+            <li class="nav-item"><a href="3_Kulturni_Akce.html" class="nav__item nav__item--active">Vzdělávání</a></li>
+            <li class="nav-item"><a href="4_O_mestu.html" class="nav__item nav__item--active">O městu</a></li>
+            <form action="https://www.google.com/search">
+    <div class="search-wrapper">
+        <label for="search"></label>
+        <input type="text" id="search" placeholder="Vyhledat">
+        <button type="submit"><img class="vyhledat" src="images/search-button.png"></button>
+    </div>
+    </form>
         </ul>
 
     </div>
+    <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
 </nav>
     </header>
-    <div class="content">
-
-        <section>
-            <div class="sekce">
-            <h2>
-                Aktulni provoz
-            </h2>
+    <div class="lista">
+        <aside>
+            <div class="aside-flex">
+                <h2><div class="Aside-flex-nadpis">Krátké aktuality</div></h2>
+                <div class="aside-flex-1">
+                        <h3><div class="Aside-flex-podnadpis">
+                            Mikulášská nadílka</div></h3>    
+                        <p><div class="aside-flex-text">
+                            5. 12. 2022 proběhla nejen na dětském oddělení Oblastní nemocnice
+                            Kolín, a.s. mikulášská nadílka. Žákyně 4. ročníku oboru Praktická
+                            sestra potěšily děti během hospitalizace a předaly jim dárkové
+                            balíčky.
+                        </div></p>
+                </div>
+                <div class="aside-flex-1">
+                    <h3><div class="Aside-flex-podnadpis">
+                        Odstranění starých sušáků na prádlo
+                    </div></h3>    
+                    <p><div class="aside-flex-text">
+                        Město Kolín nabízí obyvatelům likvidaci starých klepačů na koberce či sušáků na prádlo.<br>
+                        Město Kolín se rozhodlo vyzvat občany, kteří u svých domů a ve svých vnitroblocích tato torza mají a rádi by je nechali zlikvidovat, 
+                        aby se obrátili na Odbor správy městského majetku s žádostí o jejich odstranění.
+                    </div></p>
+                </div>
+                <div class="aside-flex-1">
+                    <h3><div class="Aside-flex-podnadpis">
+                        Hřiště pro psí agility
+                    </div></h3>    
+                    <p><div class="aside-flex-text">
+                        Z důvodu založení nového trávníku a ujmutí travního semene proběhne otevření psího agility v jarních měsících.
+                    </div></p>
+                </div>
+                <div class="aside-flex-1">
+                    <h3><div class="Aside-flex-podnadpis">
+                        Poplatek za svoz a likvidaci odpadu navýšen</div></h3>    
+                    <p><div class="aside-flex-text">
+                        Zastupitelstvo města na svém zasedání 5. 12. 2022 schválilo Obecně závaznou vyhlášku, 
+                        ve které se zvyšuje poplatek za svoz a likvidaci odpadu z 696 Kč na 800 Kč. 
+                        Navýšení poplatku platí od 1. 1. 2023. Dle OZV je poplatek nutné zaplatit do 31. 5. 2023.
+                    </div></p>
+                </div>
             </div>
-                <div class="grid-container">
-                        <div class="article">
+        </aside>
+    </div>
+    <div class="sranda">
+        
+        <div class="sekce">    
+            <div class="zpetna-navigace">
+                <a href="0_Hlani_Stranka.html" class="zpetna-navigace-text">Kolín</a>
+                <a class="zpetna-navigac-oddelovac>"><strong>></strong></a>
+                <a href="2_Dopravni_Situace.html" class="zpetna-navigace-text">Doprava</a>
+            </div>        
+            <section>
+                <h2>
+                    Aktulni provoz
+                </h2>
+            </section>
+        </div>
+       
+                <div class="clanky">
+                    <div class="clanek">
+                        <article>
                             <h3>
-                                Sněhová kalamita
+                                <a href="5_clanek.html" class="clanecky_odkazy">Sněhová kalamita</a>
                             </h3>
+                            <p>
+                                <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
+                            </p>
+                            </p>
+                                <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                            </p>
                             <p>
                                 Více než deset centimetrů nového sněhu způsobilo v pondělí ráno v Kolíně kalamitu.
                                 Různá místa ve městě zablokovaly nehody či stojící kamióny, někteří lidé vyrazili do práce na běžkách
                                 a v části okresu byla na celé dopoledne zastavena autobusová doprava.
                             </p>
-                        </div>
-                        <div class="article">
+                        </article>
+                    </div>
+                    <div class="clanek">
+                        <a href="5_clanek.html"></a>
+                        <article>
                             <h3>
-                                Kolony aut zacpaly starý most
+                                <a href="5_clanek.html" class="clanecky_odkazy">Kolony aut zacpaly starý most</a>
                             </h3>
-
+                            <p>
+                                <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
+                            </p>
+                            </p>
+                                <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                            </p>
                             <p>
                                 Práce na opravě objízdných tras, které se používaly při rekonstrukci Nového mostu, se nyní přesunuly na křižovatku
                                 ulic Brankovická a Veltrubská. Od kolon, hluku a výfukových plynů z bublajících motorů si neoddechnou obyvatelé
-                                Okružní ulice, objízdná trasa vede opět touto lokalitou. Pozitivní zprávou je snad to, že práce by měly trvat jen do úterka
-                                a soudě podle toho, že stavební firma stihla i přes nepřízeň počasí první etapu oprav včas, mělo by se to povést i nyní.
+                                Okružní ulice, objízdná trasa vede opět touto lokalitou. 
                             </p>
-                        </div>
-                        <div class="article">
+                        </article>
+                    </div>
+                    <div class="clanek">
+                        <article>
                             <h3>
-                                Na silnici I/38 začne další kyvadlový provoz
+                                <a href="5_clanek.html" class="clanecky_odkazy">Na silnici I/38 začne další kyvadlový provoz</a>
                             </h3>
-
+                            <p>
+                                <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
+                            </p>
+                            </p>
+                                <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                            </p>
                             <p>
                                 Na silnici I/38 u Kolína začne v pondělí další velká oprava, která přinese tvorbu velkých kolon kvůli chystanému provozu.
                                 Začne úprava úseku mezi Starým Kolínem a Malínem, který je dlouhý 4,1 kilometru.
@@ -68,93 +165,140 @@
                                 „S ohledem na intenzitu provozu na této významné komunikaci I. třídy musí řidiči počítat se zdržením a tvorbou kolon, zejména v dopravně
                                 vytížených časech,“ varoval Martin Buček z týmu komunikace ŘSD.
                             </p>
-                        </div>
+                        </article>
+                    </div>
                 </div>
-            <div class="sekce">
+
+                <div class="sekce">
                     <h2>
                         Nehody
                     </h2>
-            </div>
-                <div class="grid-container">
-                        <div class="article">
-                            <h3>
-                                Řidička vjela u Vitic do protisměru
-                            </h3>
+                </div>
 
+                <div class="clanky">
+                    <div class="clanek">
+                        <article>
+                            <h3>
+                                <a href="5_clanek.html" class="clanecky_odkazy">Řidička vjela u Vitic do protisměru</a>
+                            </h3>
+                            <p>
+                                <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
+                            </p>
+                            </p>
+                                <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                            </p>
                             <p>
                                 Lehkým zraněním skončila nehoda na silnici I/12 na Kolínsku. Řidička vjela u Vitic do protisměru, kde se střetla s protijedoucím vozem.
                                 Jeho řidič utrpěl lehké zranění. Řidička vyvázla bez zranění, odmítla se však podrobit dechové zkoušce.
                             </p>
-                        </div>
-                        <div class="article">
+                        </article>
+                    </div>
+                    <div class="clanek">
+                        <article>
                             <h3>
-                                Vážná nehoda u Nebovid
+                                <a href="5_clanek.html" class="clanecky_odkazy">Vážná nehoda u Nebovid</a>
                             </h3>
-
+                            <p>
+                                <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
+                            </p>
+                            </p>
+                                <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                            </p>
                             <p>
                                 Krátce po půl sedmé v sobotu večer došlo k dopravní nehodě dvou osobních automobilů u obce Nebovidy na Kolínsku.
                                 Událost si vyžádala tři zraněné osoby. Jedna žena byla v ohoržení života. Na místě zasahoval vrtulník letecké záchranné služby.
                             </p>
-                        </div>
+                        </article>
+                    </div>
                 </div>
+            
             <div class="sekce">
+
                     <h2>
                         Kudy z nudy
                     </h2>
+
             </div>
-                <div class="grid-container">
-                    <div class="article">
-                        <h3>
-                            Čertovský rej na náměstí - Kolín
-                        </h3>
 
-                        <p>
-                            Nenechte si ujít dne 4. 12. Druhé adventní zastavení u vánočního stromu – ČERTOVSKÝ REJ S MIKULÁŠSKOU NADÍLKOU
-                        <br>
-                            Maxíci / CrossDance Kolín / ZUŠ-BAND orchestr Čáslav
-                        </p>
+                <div class="clanky">
+                    <div class="clanek">
+                        <article>
+                            <h3>
+                                <a href="5_clanek.html" class="clanecky_odkazy">Čertovský rej na náměstí - Kolín</a>
+                            </h3>
+                            <p>
+                                <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
+                            </p>
+                            </p>
+                                <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                            </p>
+                            <p>
+                                Nenechte si ujít dne 4. 12. Druhé adventní zastavení u vánočního stromu – ČERTOVSKÝ REJ S MIKULÁŠSKOU NADÍLKOU
+                            <br>
+                                Maxíci / CrossDance Kolín / ZUŠ-BAND orchestr Čáslav
+                            </p>
+                        </article>
                     </div>
-                    <div class="article">
-                        <h3>
-
-                            Advent v Kolíně
-                        </h3>
-
+                    <div class="clanek">
+                        <a href="5_clanek.html"></a>
+                        <article>
+                            <h3>
+                                <a href="5_clanek.html" class="clanecky_odkazy">Advent v Kolíně</a>
+                            </h3>
+                        <p>
+                            <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
+                        </p>
+                        </p>
+                            <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                        </p>
                         <p>
                             Vánoční trhy budou na Karlově náměstí od 13. do 22. prosince, každý den od 9 do 18 hodin.
                             Přijďte ochutnat tradiční dobroty a potěšit sebe nebo blízké nákupem vánočních výrobků.
                             Na vybrané dny je připraven doprovodný program plný tance i muziky.
                         </p>
+                        </article>
                     </div>
-                    <div class="article">
-                        <h3>
-                            Rozsvícení vánočního stromu
-                        </h3>
-
+                    <div class="clanek">
+                        <article>
+                            <h3>
+                                <a href="5_clanek.html" class="clanecky_odkazy">Rozsvícení vánočního stromu</a>
+                            </h3>
                         <p>
-                            Jako již tradičně, rozsvícení vánočního stromu a zapálení první adventní svíce bude spojeno s kulturním programem.
+                            <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
                         </p>
+                        </p>
+                            <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                        </p>
+                            <p>
+                                Jako již tradičně, rozsvícení vánočního stromu a zapálení první adventní svíce bude spojeno s kulturním programem.
+                            </p>
+                        </article>
                     </div>
-                    <div class="article">
-                        <h3>
-                            David Koller v Kolíně
-                        </h3>
-
+                    <div class="clanek">
+                        <article>
+                            <h3>
+                                <a href="5_clanek.html" class="clanecky_odkazy">David Koller v Kolíně</a>
+                            </h3>
                         <p>
-                            Zpěvák a hudebník David Koller před časem vydal sběratelské vinylové EP se čtyřmi písničkami (My se vám ozveme, Planeta bez paměti, Pouta a Vězenkyně).
-                            Každá ze skladeb dostala svou originální klipovou podobu.
+                            <div class="clanek-datum-autor">01.12.2022 Kolín Lubomír Volný</div>
                         </p>
+                        </p>
+                            <a href="5_clanek.html" class="clanek-cely">Celý článek >></a>
+                        </p>
+                            <p>
+                                Zpěvák a hudebník David Koller před časem vydal sběratelské vinylové EP se čtyřmi písničkami (My se vám ozveme, Planeta bez paměti, Pouta a Vězenkyně).
+                                Každá ze skladeb dostala svou originální klipovou podobu.
+                            </p>
+                        </article>
                     </div>
                 </div>
-        </section>
     </div>
-
     <footer>
-        <p class="odkaz"> Autori: Ihor Rebrey, Škvařil Michal, Štrejn Michal</br>
-            <a href="mailto:xrebi001@studenti.czu.cz">xrebi001@studenti.czu.cz</a></br>
+        <p class="odkaz"> Autori: Ihor Rebrey, Škvařil Michal, Štrejn Michal<br>
             Studensky projekt
             </p>
     </footer>
+    <script src="script.js"></script>
 </div>
 </body>
 </html>
